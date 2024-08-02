@@ -1,0 +1,163 @@
+.containerScans {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.leftscan {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  width: 50%;
+  flex-direction: column;
+}
+
+.scan-p {
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+
+.ig {
+  margin: 20px;
+  width: 50%;
+  height: 250px;
+  background-color: beige;
+}
+
+.scbt {
+  margin-top: 10px;
+  background-color: #06dbf8;
+  border: 2px solid #fff;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 25px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  width: max-content; 
+}
+
+.scbt:active ,.scbt1:active{
+  background-color: #06dbf8;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.image-container {
+  margin-top: 30px;
+  width: 500px;
+  height: 300px;
+  border: 5px solid #06dbf8;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  /* align-items: center; */
+  margin-bottom: 30px;
+  border-style: double;
+  border-radius: 20px;
+}
+
+.image-container img {
+  width: 120%;
+  max-height: 100%;
+  border-radius: 15px;
+
+}
+
+.scan-bt {
+  display: flex;
+}
+.input-scan {
+  font-size: medium;
+  color: #fff;
+  padding: 10px;
+}
+
+.scan-clear {
+  /* border: 2px solid #fff; */
+  position: absolute;
+  color: #000;
+  margin-top: 10px;
+  font-size: medium;
+  right: 160px;
+  width: 100px;
+  height: max-content;
+  background-color: #fff;
+  /* border-radius: 20px; */
+}
+.rightscan {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 30px;
+  /* margin: 30px; */
+}
+.scan-head {
+  font-size: 30px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.prediction{
+  display: inline;
+  font-size: 25px;
+  /* text-align: center; */
+  margin-left: 1em;
+  color: #fff;
+}
+
+.scan-predict{
+  font-size:30px;
+  color: #fff;
+}
+
+.remedies {
+  list-style: none;
+  font-size: 30px;
+}
+
+.rem {
+  color: #fff;
+  line-height: normal;
+  text-align: justify;
+  margin-left: 3em;
+}
+
+.scbt1
+{
+  margin-top: 80px;
+  background-color: #06dbf8;
+  border: 2px solid #fff;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 25px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+  width: max-content; 
+  position: relative;
+  left:180px;  
+}
+
+.rightscan .desc{
+  font-size: large;
+  color: #fff;
+}
+
+.rightscan .rem li{
+  color: #fff;
+  font-size: larger;
+}

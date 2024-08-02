@@ -1,0 +1,56 @@
+.derm-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 100px;
+}
+
+.derm-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  font-size: 30px;
+  color: #fff;
+  border: 7px solid #06dbf8;
+  border-style: double;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+  
+}
+.derm-left:hover{
+    box-shadow: 0 0 10px rgb(35, 200, 215);
+}
+
+.derm-left p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.derm-left iframe {
+  width: 100%;
+  border-radius: 20px;
+  height: 500px;
+}
+
+.derm-right {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  flex-direction: column;
+}
+.derm-right ul {
+  margin-left: 30px;
+  width: 100%;
+  color: #f2f2f2;
+}
+
+.derm-right li {
+  list-style: decimal;
+  font-size: x-large;
+  margin-left: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}

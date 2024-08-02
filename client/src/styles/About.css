@@ -1,0 +1,27 @@
+.about-parent{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: justify;
+}
+
+.content{
+    color: #fff;
+    font-size: 25px;
+    padding: 30px 180px;
+}
+
+.content h3{
+    font-size: 30px;
+    text-decoration:wavy;
+    padding-bottom: 10px;
+}
+.content ul{
+    list-style:disc;
+    padding-left: 5rem;
+}
+
+.content li{
+    color: #fff;
+    padding-bottom: 10px;
+}
